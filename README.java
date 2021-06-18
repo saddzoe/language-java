@@ -56,4 +56,16 @@ class Mayan extends Language {
     System.out.println("The language follows the word order: " + this.wordOrder);
     System.out.println("Fun fact: " + this.name + " is an ergative language.");
     };
-}
+};
+
+class SineTibetan extends Language {
+
+  SinoTibetan(String languageName, int speakers) {
+    super(languageName, speakers, "Asia", "subject-object-verb");
+  };
+    if (languageName.contains("Chinese")) {
+      this.wordOrder = "subject-verb-object";
+    };
+};
+
+
