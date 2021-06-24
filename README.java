@@ -68,4 +68,8 @@ class SineTibetan extends Language {
     };
 };
 
+class Mayan extends Language {
+  Mayan(String langName, int speakers) {
+    super(langName, speakers, "Central America", "verb-object-subject");
+  };
 
